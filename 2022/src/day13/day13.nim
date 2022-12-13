@@ -13,7 +13,7 @@ func compareInts(left, right: JsonNode): int =
   ## Three-way comparison between two nodes of kind JInt
   let l = left.getInt()
   let r = right.getInt()
-  if l < r: return -1 elif l > r: return 1 else: return 0
+  return if l < r: -1 elif l > r: 1 else: 0
 
 
 # Forward declare compareNodes
@@ -28,7 +28,7 @@ func compareArrays(left, right: JsonNode): int =
     let cmp = compareNodes(left[i], right[i])
     if cmp != 0:
       return cmp
-  if lenl < lenr: return -1 elif lenl > lenr: return 1 else: return 0
+  return if lenl < lenr: -1 elif lenl > lenr: 1 else: 0
 
 
 func compareNodes(left, right: JsonNode): int =
