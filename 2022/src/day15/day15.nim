@@ -10,8 +10,8 @@
 ## That means that every other cell in the search area must be covered by at
 ## least one beacon. The position we are looking for must therefore be exactly
 ## one step out of range of 2-4 sensors. By intersecting the line segments
-## around the border of each segment with those of each nearby other segment, we
-## can build a list of candidate points. The wanted result is the only one of
+## around the border of each signal area with those of each nearby other signal,
+## we can build a list of candidate points. The wanted result is the only one of
 ## those points that does not lie within any sensor's range.
 
 import std/[algorithm, strscans]
