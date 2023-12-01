@@ -1,22 +1,21 @@
-Advent of Code 2022
+Advent of Code 2023
 ===================
 
-These are my solutions to the [Advent of Code](https://adventofcode.com/2022)
-challenges of 2022.  My main goal for this year (besides having fun) is to learn
-the [Nim](https://nim-lang.org) programming language.
+These are my solutions to the [Advent of Code](https://adventofcode.com/2023)
+challenges of 2023. I like to use this yearly event as an opportunity to play
+around with various programming languages. For this year, I am going to write
+in [D](https://dlang.org).
 
 Self-imposed rules
 ------------------
 
-* Write in Nim, stdlib only, no third-party packages
-* When in doubt, prefer idiomatic solutions to highly optimized ones
+* Write in D, stdlib only, no third-party packages
 * No cheap shortcuts like hard coded input data
-* Identify and correctly handle all error cases
 
-Older Events
-------------
+Previous years
+--------------
 
-I have first tried AOC in 2022, but I'd like to try some of the older puzzles
-too. I am going to use a different language for each year. Currently in progress:
+This repository contains solutions to the AOC puzzles of previous years as well:
 
-* [2021](https://adventofcode.com/2021) in Go
+* [2021](https://adventofcode.com/2021) in [Go](https://go.dev)
+* [2022](https://adventofcode.com/2022) in [Nim](https://nim-lang.org)
