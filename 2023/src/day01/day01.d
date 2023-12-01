@@ -1,5 +1,4 @@
-// Solution to https://adventofcode.com/2023/day/1
-
+/// Solution to https://adventofcode.com/2023/day/1
 import std.stdio;
 
 const inputFile = "../../input/day01.txt";
@@ -41,7 +40,7 @@ int calibrationValue(string line, bool parseDigits)
     return 10 * first + last;
 }
 
-/// If s starts with a digit, frontValue copy its value to *value and return
+/// If s starts with a digit, frontValue will copy it to *value and return
 /// true. If parseDigits is true, frontValue will also consider digits given
 /// in their string representation. If s does not start with a digit, frontValue
 /// returns false.
