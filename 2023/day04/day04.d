@@ -2,7 +2,7 @@ import std.conv;
 import std.stdio;
 import std.string;
 
-const inputFile = "../../input/day04.txt";
+const inputFile = "../input/day04.txt";
 
 class Card
 {

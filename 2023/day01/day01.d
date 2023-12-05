@@ -1,7 +1,7 @@
 /// Solution to https://adventofcode.com/2023/day/1
 import std.stdio;
 
-const inputFile = "../../input/day01.txt";
+const inputFile = "../input/day01.txt";
 
 const digits = [
     "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"

@@ -3,7 +3,7 @@ import std.ascii;
 import std.conv;
 import std.stdio;
 
-const inputFile = "../../input/day03.txt";
+const inputFile = "../input/day03.txt";
 
 struct Number
 {
