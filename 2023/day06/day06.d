@@ -57,14 +57,12 @@ Race[] readRaces(string filename)
     Race[] races;
 
     for (int i = 1; i < timeparts.length; i++)
-        races ~= Race(duration : to!int(timeparts[i]), record:
-                to!int(distparts[i]));
+        races ~= Race(duration : to!int(timeparts[i]), record: to!int(distparts[i]));
 
     const jointime = timeparts[1 .. $].join();
     const joindist = distparts[1 .. $].join();
 
-    races ~= Race(duration : to!long(jointime), record:
-            to!long(joindist));
+    races ~= Race(duration : to!long(jointime), record: to!long(joindist));
 
     return races;
 }
